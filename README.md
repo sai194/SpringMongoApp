@@ -10,3 +10,17 @@ spring.data.mongodb.uri: mongodb://mongo:27000/test
 
 else use
 spring.data.mongodb.uri: mongodb://localhost:27000/test
+
+Employee 
+create and get
+localhost:9800/employee
+{
+    "id": "5cae2123e99e060bd41a92f5",
+    "email": "sai.yeluri@xyz.com",
+    "fullName": "Sai",
+    "managerEmail": "yeluri.sai@xyz.com"
+}
+localhost:9800/5cae2123e99e060bd41a92f5
+
+
+Various query scenarios are written in QueryApp class .
